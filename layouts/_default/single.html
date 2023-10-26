@@ -9,6 +9,7 @@
   {{ if or (.Site.Params.remark42) (.Site.DisqusShortname) }}
     {{ partial "post/comments.html" . }}
   {{ end }}
+
 </div>
 {{- end }}
 {{ define "sidebar" }}
@@ -16,3 +17,4 @@
     {{ partial "table_of_contents.html" . }}
   {{ end }}
 {{ end }}
+
