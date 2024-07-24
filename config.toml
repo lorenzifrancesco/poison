@@ -3,3 +3,30 @@
     min = "0.41.0"
 [params]
   front_page_content = ["about"]
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 1
+
+[[menu.main]]
+parent = "posts"
+identifier = "news"
+name = "News"
+url = "/posts/quantum/"
+weight = 2
+
+[[menu.main]]
+parent = "posts"
+identifier = "mathematics"
+name = "Opinions"
+url = "/posts/opinions/"
+weight = 3
+
+[[menu.main]]
+parent = "posts"
+identifier = "reviews"
+name = "Reviews"
+url = "/posts/reviews/"
+weight = 4
